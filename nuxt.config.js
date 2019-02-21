@@ -45,7 +45,7 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    baseURL: 'http://demo4507124.mockable.io',
+    baseURL: 'https://demo4507124.mockable.io',
   },
 
   /*

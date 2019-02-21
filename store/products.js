@@ -16,6 +16,13 @@ export const getters = {
     let prods = [...state.products]
     prods = prods.slice(prods.length - 4, prods.length)
     return prods
+  },
+  popularProducts: state => {
+    let prods = [...state.products]
+    prods = prods
+      .sort((a, b) => b.rating - a.rating)
+      .slice(Math.max(state.products.length - 4, 1))
+    return prods
   }
 }
 export const actions = {

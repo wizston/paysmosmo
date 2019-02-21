@@ -84,6 +84,8 @@
 
 .base-foot {
     margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #383a3c;
 }
 
@@ -114,3 +116,11 @@
     color: #a9a9a9;
 }
 
+.base-foot li {
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.base-foot h5 {
+    margin-bottom: 20px;
+}

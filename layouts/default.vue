@@ -69,68 +69,65 @@
 
     <nuxt />
 
-    <footer class="base-foot pt-4 pt-md-5 border-top">
-      <div class="container">
+    <footer class="base-foot border-top">
+      <div class="container-main" style="color:#8d9091">
         <div class="row">
           <div class="col-12 col-md">
+            <h3 style="margin-bottom: 15px">PAYSMOSMO</h3>
+            <small class="d-block mb-3 text-muted">Help give out inventory loans to <br>  cooperative members with ease.</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Contact</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="text-muted" href="#">Registration</a>
+              </li>
+              <li>
+                <a class="text-muted" href="#">About Us</a>
+              </li>
+              <li>
+                <a class="text-muted" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Help</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="text-muted" href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="text-muted" href="#">How it works</a>
+              </li>
+              <li>
+                <a class="text-muted" href="#">Terms and conditions</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Stay Connected</h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <span class="fa-layers fa-fw mr-4">
+                <font-awesome-icon size="1x" class="ml-2" :icon="['fab', 'facebook-f']" />
+                <font-awesome-icon size="2x" data-fa-transform="shrink-6" :icon="['far', 'circle']" />
+                </span>
+
+                <span class="fa-layers fa-fw mr-4">
+                <font-awesome-icon size="1x" class="ml-2" :icon="['fab', 'twitter']" />
+                <font-awesome-icon size="2x" data-fa-transform="shrink-6" :icon="['far', 'circle']" />
+                </span>
+
+                <span class="fa-layers fa-fw mr-4">
+                <font-awesome-icon size="1x" class="ml-2" :icon="['fab', 'instagram']" />
+                <font-awesome-icon size="2x" data-fa-transform="shrink-6" :icon="['far', 'circle']" />
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md">
+            <h5>Back to top ^ </h5>
             <small class="d-block mb-3 text-muted">© 2017-2018</small>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Features</h5>
-            <ul class="list-unstyled text-small">
-              <li>
-                <a class="text-muted" href="#">Cool stuff</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Random feature</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Team feature</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Stuff for developers</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Another one</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Last time</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Resources</h5>
-            <ul class="list-unstyled text-small">
-              <li>
-                <a class="text-muted" href="#">Resource</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Resource name</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Another resource</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Final resource</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li>
-                <a class="text-muted" href="#">Team</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Locations</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Privacy</a>
-              </li>
-              <li>
-                <a class="text-muted" href="#">Terms</a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

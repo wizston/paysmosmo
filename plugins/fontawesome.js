@@ -5,10 +5,24 @@ import {
   faHeart,
   faSearch
 } from '@fortawesome/free-solid-svg-icons'
-import { faBell } from '@fortawesome/free-regular-svg-icons'
+import { faBell, faCircle } from '@fortawesome/free-regular-svg-icons'
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram
+} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faCartPlus, faHeart, faSearch, faBell)
+library.add(
+  faCartPlus,
+  faHeart,
+  faSearch,
+  faBell,
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faCircle
+)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
