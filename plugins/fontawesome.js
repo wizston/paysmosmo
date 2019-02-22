@@ -3,7 +3,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   faCartPlus,
   faHeart,
-  faSearch
+  faSearch,
+  faChevronRight
 } from '@fortawesome/free-solid-svg-icons'
 import { faBell, faCircle } from '@fortawesome/free-regular-svg-icons'
 import {
@@ -21,7 +22,8 @@ library.add(
   faFacebookF,
   faTwitter,
   faInstagram,
-  faCircle
+  faCircle,
+  faChevronRight
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
